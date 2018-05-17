@@ -26,6 +26,6 @@ module.exports = async (ctx) => {
             description: item.description,
             link: item.url,
             pubDate: new Date(item.dateTime).toUTCString(),
-        })),
+        }))
     };
 };
